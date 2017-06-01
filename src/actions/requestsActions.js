@@ -6,3 +6,16 @@ export function loadRequests() {
     return getState().requests;
   };
 }
+
+export function loadTypes() {
+  return (dispatch, getState) => {
+    return getState().types;
+  };
+}
+
+export function saveNewProduct(product) {
+  return (dispatch, getState) => {
+    dispatch({ type: types.SAVE_PRODUCT, product });
+    dispatch(push('/requests'));
+  };
+}

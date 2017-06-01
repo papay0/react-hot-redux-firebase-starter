@@ -68,6 +68,7 @@
     "firebase": "^3.0.3",
     "jquery": "^2.2.4",
     "react": "^15.1.0",
+    "react-autocomplete": "^1.5.6",
     "react-dom": "^15.1.0",
     "react-loader": "^2.4.0",
     "react-redux": "^4.4.5",

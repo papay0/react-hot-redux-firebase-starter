@@ -12,4 +12,5 @@ export const USER_CREATED_SUCCESS = 'USER_CREATED_SUCCESS';
 export const USER_LOADED_SUCCESS = 'USER_LOADED_SUCCESS';
 export const USER_IS_ADMIN_SUCCESS = 'USER_IS_ADMIN_SUCCESS';
 
-
+// Requests actions
+export const SAVE_PRODUCT = 'SAVE_PRODUCT';
